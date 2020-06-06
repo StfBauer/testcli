@@ -1,0 +1,28 @@
+{
+  "name": "testcli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "bin": {
+    "replcli": "./bin/cli.js"
+  },
+  "lib": "./lib/index.js",
+  "directories": {
+    "bin": "bin",
+    "lib": "lib",
+    "app": "app"
+  },
+  "files": [
+    "app",
+    "bin",
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "yargs": "^15.3.1"
+  }
+}
